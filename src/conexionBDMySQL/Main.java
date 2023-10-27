@@ -25,6 +25,7 @@ public class Main {
 		JDBCOperations.crearTabla(connection,crearTablaDirecciones);
 		
 		
+		
 		String buscarPersona = "select * from Persona where id=1";
 		
 		 ResultSet resultSet =  JDBCOperations.buscarDatos(connection, buscarPersona);
